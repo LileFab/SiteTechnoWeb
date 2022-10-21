@@ -31,6 +31,10 @@
 color: #d67e6e
 }
 
+#nav a::selection {
+  color: #bc5845;
+}
+
 #contact {
   border: 2px dotted #d67e6e;
   padding: 15px 15px 15px 15px;
@@ -57,6 +61,19 @@ color: #d67e6e
   justify-content: left;
 }
 
+#topCV {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+#imgCV {
+  margin-left: auto;
+  margin-right: 50vw;
+  position: relative;
+}
+
 body {
   background-color: #f9f9f9;
   font-family: "figtreelight";
@@ -68,21 +85,33 @@ label {
   color: #bc5845;
 }
 
+h2 {
+  color: #3d3d3d  ;
+  font-family: "figtreebold";
+  border-bottom: 2px solid #3d3d3d;
+}
+
 img {
   width: 30vw;
+}
+
+input {
+  margin-bottom: 5px;
 }
 
 footer {
   display: flex;
   flex-direction: row;
   padding-top: 15px;
-  border-top: #d67e6e 2px dotted;
-  position: absolute;
+  border-top: #3d3d3d 2px dotted;
   bottom: 0;
   width: 94vw;
   height: 2.5rem;          /* Footer height */
 }
 
+#code {
+  background-color: #9c9c9c;
+}
 @font-face {
   font-family: "figtreebold";
   src: url("Figtree-Bold.ttf");

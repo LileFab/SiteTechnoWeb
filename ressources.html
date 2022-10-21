@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Ressources</title>
+</head>
+<body>
+   <h1 id="titre">Bonjour c'est mon Site</h1>
+  <nav id="nav">
+    <ul>
+      <a href="./index.html">Maison</a>
+      <a href="./CV.html">CV</a>
+      <a href="ressources.html">Ressources</a>
+    </ul>
+  </nav>
+  <div id="dl">
+    <h2>Téléchargements</h2> 
+    <p><a href="./dlpdf.pdf">Téléchargement petit PDF</a></p>
+    <p><a href="./dlzip.zip">Téléchargement petit ZIP</a></p>
+    <p><a href="./photofab.jpg">Téléchargement photo CV</a></p>
+  </div>
+  <div id="video">
+    <h2>Vidéo</h2>
+    <p><video controls src="./videodl.mp4">Vidéo locale</video></p>
+    <p><iframe src="https://www.youtube.com/embed/bZH9U1efx1c">Vidéo distante</iframe></p>
+  </div>
+  <div id="code">
+    <p><pre>import random
+import time as t
+
+from colorama import init
+from termcolor import colored
+
+init()
+tab = ['red', 'green', 'yellow']
+mot = "Vive les couleurs"
+
+while 1:
+  for i in mot:
+    nb = random.randrange(len(tab))
+    couleur = tab[nb]
+    print(colored(i, couleur), end="")
+    t.sleep(0.05)
+  print("")
+  t.sleep(0.7)
+</pre></p>
+  </div>
+  <footer>
+    <div id="gauchefooter">Copyright : Libre de droit</div>
+    <div id="droitefooter">Made with love &lt3 by LileFab</div>
+  </footer>
+</body>
+</html>
