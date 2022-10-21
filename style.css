@@ -44,13 +44,17 @@ color: #d67e6e
   display: flex;
   flex-direction: row;
   height: 30vh;
-  width: 50vw;
+  justify-content: space-between;
 }
 
-img {
-  height: 100%;
-  width: 100%;
-  float: right;
+#droitefooter {
+  display: flex;
+  justify-content: right;
+}
+
+#gauchefooter {
+  display: flex;
+  justify-content: left;
 }
 
 body {
@@ -62,6 +66,21 @@ body {
 
 label {
   color: #bc5845;
+}
+
+img {
+  width: 30vw;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  border-top: #d67e6e 2px dotted;
+  position: absolute;
+  bottom: 0;
+  width: 94vw;
+  height: 2.5rem;          /* Footer height */
 }
 
 @font-face {
