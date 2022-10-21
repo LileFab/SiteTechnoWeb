@@ -4,9 +4,64 @@
   font-family: "figtreebold";
 }
 
+#nav {
+  align-content: center;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  border-bottom: 2px dotted black;
+}
+
+.content {
+  text-align: justify;
+
+}
+
+#nav a {
+  text-decoration: none;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #9c9c9c;
+}
+
+#nav a:hover {
+color: #d67e6e
+}
+
+#contact {
+  border: 2px dotted #d67e6e;
+  padding: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  width: 50vw;
+}
+
+#centenuContact {
+  display: flex;
+  flex-direction: row;
+  height: 30vh;
+  width: 50vw;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  float: right;
+}
+
 body {
   background-color: #f9f9f9;
   font-family: "figtreelight";
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+label {
+  color: #bc5845;
 }
 
 @font-face {
