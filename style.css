@@ -12,18 +12,19 @@
   margin-right: auto;
   margin-bottom: 2%;
   border-bottom: 2px dotted black;
+  border-top: 2px dotted black;
+
 }
 
 .content {
   text-align: justify;
-
 }
 
 #nav a {
   text-decoration: none;
   justify-content: space-between;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: #9c9c9c;
 }
 
@@ -52,12 +53,10 @@ color: #d67e6e
 }
 
 #droitefooter {
-  display: flex;
   justify-content: right;
 }
 
 #gauchefooter {
-  display: flex;
   justify-content: left;
 }
 
@@ -89,6 +88,17 @@ h2 {
   color: #3d3d3d  ;
   font-family: "figtreebold";
   border-bottom: 2px solid #3d3d3d;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 img {
