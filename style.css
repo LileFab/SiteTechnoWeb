@@ -5,6 +5,8 @@
 }
 
 #nav {
+  padding-top: 7px;
+  padding-bottom: 7px;
   align-content: center;
   text-align: center;
   display: block;
@@ -13,7 +15,6 @@
   margin-bottom: 2%;
   border-bottom: 2px dotted black;
   border-top: 2px dotted black;
-
 }
 
 .content {
@@ -49,15 +50,10 @@ color: #d67e6e
   display: flex;
   flex-direction: row;
   height: 30vh;
-  justify-content: space-between;
 }
 
-#droitefooter {
-  justify-content: right;
-}
-
-#gauchefooter {
-  justify-content: left;
+#textFooter {
+  text-align: center;
 }
 
 #topCV {
@@ -68,16 +64,20 @@ color: #d67e6e
 }
 
 #imgCV {
-  margin-left: auto;
-  margin-right: 50vw;
   position: relative;
+  border: 3px #bc5845 solid;
+}
+
+#civilState {
+  width: 25vw;
+  color: #d67e6e;
 }
 
 body {
   background-color: #f9f9f9;
   font-family: "figtreelight";
   margin-left: 3%;
-  margin-right: 3%;
+  margin-right: 3%
 }
 
 label {
@@ -88,6 +88,7 @@ h2 {
   color: #3d3d3d  ;
   font-family: "figtreebold";
   border-bottom: 2px solid #3d3d3d;
+  color: #d67e6e;
 }
 
 h3 {
@@ -110,11 +111,8 @@ input {
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
   padding-top: 15px;
   border-top: #3d3d3d 2px dotted;
-  bottom: 0;
   width: 94vw;
   height: 2.5rem;          /* Footer height */
 }
